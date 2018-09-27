@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_tasks">מטלות</string>
+    <string name="title_dashboard">לוח בקרה</string>
+    <string name="title_timetable">מערכת שעות</string>
+    <string name="title_activity_view_class">שיעור</string>
+    <string name="title_activity_view_subject">מקצוע</string>
+    <string name="title_activity_view_task">מטלה</string>
+    <string name="title_activity_view_grade">ציון</string>
+    <string name="title_activity_setup">הכנה</string>
+    <string name="title_activity_settings">הגדרות</string>
+    <string name="title_activity_about">אודות</string>
+    <string name="whats_new">- גרסה ראשונה של Schoolix</string>
+    <string name="author_label">יוצר</string>
+    <string name="version_label">גרסה</string>
+    <string name="rate_label">דרג</string>
+    <string name="rate_message">אם אתה נהנה מהשימוש בSchoolix, אנא דרג אותנו. תודה על התמיכה!</string>
+    <string name="rate_now_label">דרג עכשיו</string>
+    <string name="no_thanks_label">לא תודה</string>
+    <string name="backup_saved_toast">הגיבוי נשמר ל</string>
+    <string name="data_restored_toast">הנתונים שוחזרו בהצלחה</string>
+    <string name="cannot_find_backup_toast">לא ניתן למצוא קובץ גיבוי</string>
+    <string name="data_erased_toast">הנתונים נמחקו בהצלחה</string>
+    <string name="break_label">הפסקה</string>
+    <string name="ending_hour_after_starting_hour_toast">שעת הסיום חייבת להיות אחרי שעת ההתחלה</string>
+    <string name="period_clashing_toast">השיעור מתנגש עם שיעור אחר</string>
+    <string name="starting_hour_clashing_toast">שעת ההתחלה מתנגשת עם שיעור אחר</string>
+    <string name="ending_hour_clashing_toast">שעת הסיום מתנגשת עם שיעור אחר</string>
+    <string name="hour_label">שעה</string>
+    <string name="edit_class_label">עריכת שיעור</string>
+    <string name="pick_subject_toast">אנא בחר מקצוע</string>
+    <string name="pick_day_toast">אנא בחר יום</string>
+    <string name="pick_hour_toast">אנא בחר שעה</string>
+    <string name="create_new_subject_label">יצירת מקצוע</string>
+    <string name="good_evening_label">ערב טוב</string>
+    <string name="good_morning_label">בוקר טוב</string>
+    <string name="good_afternoon_label">אחר הצהריים טובים</string>
+    <string name="title_empty_toast">הכותרת לא יכולה להיות ריקה</string>
+    <string name="set_date_toast">אנא בחר תאריך</string>
+    <string name="set_weight_toast">אנא הגדר משקל</string>
+    <string name="grade_empty_toast">הציון לא יכול להיות ריק</string>
+    <string name="pick_type_toast">אנא בחר סוג</string>
+    <string name="title_contain_number_and_letters_toast">הכותרת יכולה לכלול אותיות ומספרים בלבד</string>
+    <string name="weight_contain_digits">המשקל יכול לכלול ספרות בלבד</string>
+    <string name="grade_contain_numbers">הציון יכול לכלול ספרות בלבד</string>
+    <string name="grade_between_0_100">הציון חייב להיות בין 0 ל100</string>
+    <string name="grade_between_0_10">הציון חייב להיות בין 0 ל10</string>
+    <string name="grade_between_F_A">הציון חייב להיות בין F לA+</string>
+    <string name="edit_grade_label">עריכת ציון</string>
+    <string name="class_hour_label">שעת השיעור</string>
+    <string name="ok_label">אישור</string>
+    <string name="cancel_label">ביטול</string>
+    <string name="data_imported_toast">הנתונים יובאו בהצלחה</string>
+    <string name="import_data_from_label">ייבוא נתונים מ</string>
+    <string name="import_data_label">ייבוא נתונים</string>
+    <string name="share_using_label">שתף באמצעות</string>
+    <string name="period_label">שעה</string>
+    <string name="semester_label">סמסטר</string>
+    <string name="edit_semester_label">עריכת סמסטר</string>
+    <string name="pick_starting_date_toast">אנא בחר תאריך התחלה</string>
+    <string name="pick_ending_date_toast">אנא בחר תאריך סיום</string>
+    <string name="ending_date_after_starting_date_toast">תאריך הסיום חייב להיות אחרי תאריך ההתחלה</string>
+    <string name="semester_clashing_toast">הסמסטר מתנגש עם סמסטר אחר</string>
+    <string name="starting_date_clashing">תאריך ההתחלה מתנגש עם סמסטר אחר</string>
+    <string name="ending_date_clashing">תאריך הסיום מתנגש עם סמסטר אחר</string>
+    <string name="general_section_label">כללי</string>
+    <string name="semesters_section_label">סמסטרים</string>
+    <string name="periods_section_label">שעות</string>
+    <string name="notifications_section_label">התראות</string>
+    <string name="backup_and_restore_section_label">גיבוי ושחזור</string>
+    <string name="rate_us_label">דרג אותנו</string>
+    <string name="contact_us_label">צור קשר</string>
+    <string name="have_at_least_one_semester_toast">אתה חייב לפחות סמסטר אחד</string>
+    <string name="have_at_least_two_periods_toast">אתה חייב לפחות שתי שעות</string>
+    <string name="edit_subject_label">עריכת מקצוע</string>
+    <string name="teacher_name_empty_toast">שם המורה לא יכול להיות ריק</string>
+    <string name="room_name_empty_toast">שם החדר לא יכול להיות ריק</string>
+    <string name="title_contain_letters_toast">הכותרת יכולה לכלול אותיות בלבד</string>
+    <string name="teacher_name_contain_letters">שם המורה חייב לכלול אותיות בלבד</string>
+    <string name="room_name_contain_letters_and_digits_toast">שם החדר חייה לכלול אותיות או ספרות בלבד</string>
+    <string name="next_lesson_label">השיעור הבא</string>
+    <string name="no_label">לא</string>
+    <string name="lessons_found_label">שיעורים נמצאו</string>
+    <string name="delete_confirmation_label">האם אתה בטוח שברצונך למחוק את</string>
+    <string name="yes_label">כן</string>
+    <string name="weighted_average_label">ממוצע משוקלל</string>
+    <string name="edit_task_label">עריכת מטלה</string>
+    <string name="no_tasks_for_tomorrow_label">אין מטלות למחר</string>
+    <string name="enjoy_your_day_label">תיהנה מהיום שלך</string>
+    <string name="tasks_for_tomorrow_label">מטלות למחר</string>
+    <string name="upcoming_task_alert_label">תזכורת למטלה</string>
+    <string name="tasks_channel_name">תזכורות למטלות</string>
+    <string name="starting_at_label">מתחיל ב</string>
+    <string name="hurry_up_to_room_label">מהר לחדר</string>
+    <string name="upcoming_class_alert_label">תזכורת לשיעור</string>
+    <string name="timetable_channel_name">תזכורות לשיעורים</string>
+    <string name="what_s_new_label">מה חדש?</string>
+    <string name="open_source_licences_label">רשיונות קוד פתוח</string>
+    <string name="add_break_label">הוסף הפסקה</string>
+    <string name="create_new_class_label">יצירת שיעור חדש</string>
+    <string name="subject_label">מקצוע</string>
+    <string name="add_grade_label">הוסף ציון</string>
+    <string name="title_hint">כותרת</string>
+    <string name="date_label">תאריך</string>
+    <string name="weight_hint">משקל (%)</string>
+    <string name="grade_hint">ציון</string>
+    <string name="type_label">סוג</string>
+    <string name="add_period_label">הוסף שעה</string>
+    <string name="add_semester_label">הוסף סמסטר</string>
+    <string name="teacher_hint">מורה</string>
+    <string name="room_hint">חדר</string>
+    <string name="add_task_label">הוסף מטלה</string>
+    <string name="backup_data_label">גבה נתונים</string>
+    <string name="backup_data_to_file_label">גבה נתונים לקובץ</string>
+    <string name="restore_data_label">שחזר נתונים</string>
+    <string name="restore_data_from_file_label">שחזר נתונים מתוך קובץ</string>
+    <string name="erase_data_label">מחק נתונים</string>
+    <string name="about_label">אודות</string>
+    <string name="erase_schoolix_data_label">מחק את נתוני Schoolix</string>
+    <string name="your_upcoming_tasks_label">המטלות הקרובות שלך</string>
+    <string name="your_schedule_today_label">מערכת השעות שלך היום</string>
+    <string name="first_day_of_the_week_label">היום הראשון בשבוע</string>
+    <string name="grading_system_label">מערכת ציונים</string>
+    <string name="sort_by_label">מיין לפי:</string>
+    <string name="daily_tasks_notifications_label">התראת מטלות יומית</string>
+    <string name="timetable_notifications_label">התראות מערכת שעות</string>
+    <string name="monday">שני</string>
+    <string name="tuesday">שלישי</string>
+    <string name="wednesday">רביעי</string>
+    <string name="thursday">חמישי</string>
+    <string name="friday">שישי</string>
+    <string name="saturday">שבת</string>
+    <string name="sunday">ראשון</string>
+    <string name="import_data_from_file_label">ייבא נתונים מתוך קובץ?</string>
+    <string name="welcome_to_schoolix_label">ברוך הבא לSchoolix</string>
+    <string name="schoolix_welcome_description_label">Schoolix יעזור לך לנהל את השיעורים, המטלות והציונים. Schoolix יהיה היומן הדיגיטלי שלך, שידריך אותך במהלך שנה זו.</string>
+    <string name="edit_label">ערוך</string>
+    <string name="delete_label">מחק</string>
+    <string name="view_subject_label">ראה מקצוע</string>
+    <string name="tasks_label">מטלות</string>
+    <string name="grades_label">ציונים</string>
+    <string name="done_label">בוצע</string>
+    <string name="later_label">מאוחר יותר</string>
+    <string name="overview_label">סקירה</string>
+    <string name="subjects_label">מקצועות</string>
+    <string name="settings_label">הגדרות</string>
+    <string name="share_label">שתף</string>
+    <string-array name="suffixes">
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+        <item />
+    </string-array>
+    <string-array name="days">
+        <item>יום שני</item>
+        <item>יום שלישי</item>
+        <item>יום רביעי</item>
+        <item>יום חמישי</item>
+        <item>יום שישי</item>
+        <item>יום שבת</item>
+        <item>יום ראשון</item>
+    </string-array>
+    <string-array name="first_day_categories">
+        <item>ברירת מחדל מקומית</item>
+        <item>יום שני</item>
+        <item>יום ראשון</item>
+    </string-array>
+    <string-array name="grading_categories">
+        <item>0 עד 100</item>
+        <item>0 עד 10</item>
+        <item>F עד A+</item>
+    </string-array>
+    <string-array name="grade_types">
+        <item>מבחן</item>
+        <item>בוחן</item>
+        <item>פרוייקט</item>
+        <item>עבודת הגשה</item>
+    </string-array>
+    <string-array name="task_types">
+        <item>מבחן</item>
+        <item>בוחן</item>
+        <item>פרוייקט</item>
+        <item>עבודת הגשה</item>
+        <item>שיעורי בית</item>
+    </string-array>
+    <string-array name="grade_sort_categories">
+        <item>תאריך</item>
+        <item>מקצוע</item>
+        <item>סוג</item>
+        <item>משקל</item>
+        <item>ציון</item>
+    </string-array>
+    <string-array name="task_sort_categories">
+        <item>תאריך</item>
+        <item>מקצוע</item>
+        <item>סוג</item>
+    </string-array>
+    <string name="class_outside_timetable_toast">השיעור הוא מחוץ למערכת השעות</string>
+    <string name="class_clashing_toast">השיעור מתנגש עם שיעור אחר</string>
+    <string name="title_unique_toast">הכותרת חייבת להיות ייחודית</string>
+    <string name="schoolix_data">נתוני Schoolix</string>
+    <string name="edit_break_label">עריכת הפסקה</string>
+    <string name="edit_period_label">עריכת שעה</string>
+</resources>

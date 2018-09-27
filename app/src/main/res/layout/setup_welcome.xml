@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:paddingBottom="40dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="68dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_to_schoolix_label"
+            android:textColor="@android:color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/semester_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/schoolix_welcome_description_label"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.moonface.schoolix.ElevatedImageView
+                android:id="@+id/ic_timetable"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="4dp"
+                android:tint="@android:color/holo_green_dark"
+                app:srcCompat="@drawable/ic_day_black_24dp" />
+
+            <com.moonface.schoolix.ElevatedImageView
+                android:id="@+id/ic_subjects"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="4dp"
+                android:tint="@android:color/holo_purple"
+                app:srcCompat="@drawable/ic_subject_black_24dp"
+                app:tint="@android:color/holo_blue_dark" />
+
+            <com.moonface.schoolix.ElevatedImageView
+                android:id="@+id/ic_grades"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="4dp"
+                android:tint="@android:color/holo_orange_light"
+                app:srcCompat="@drawable/ic_grade_black_24dp" />
+
+            <com.moonface.schoolix.ElevatedImageView
+                android:id="@+id/ic_tasks"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="?android:attr/selectableItemBackground"
+                android:padding="4dp"
+                android:tint="@android:color/holo_red_dark"
+                app:srcCompat="@drawable/ic_task_black_24dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/screenshot1" />
+
+    </LinearLayout>
+</LinearLayout>

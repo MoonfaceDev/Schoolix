@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single" android:id="@+id/general">
+        <item
+            android:id="@+id/nav_overview"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/overview_label"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_subjects"
+            android:icon="@drawable/ic_subject_black_24dp"
+            android:title="@string/subjects_label"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_grades"
+            android:icon="@drawable/ic_grade_black_24dp"
+            android:title="@string/grades_label"
+            app:showAsAction="ifRoom"/>
+    </group>
+    <group android:checkableBehavior="none" android:id="@+id/miscellaneous">
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/settings_label"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/share_label"
+            app:showAsAction="ifRoom"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="@string/about_label"
+            app:showAsAction="ifRoom"/>
+    </group>
+</menu>

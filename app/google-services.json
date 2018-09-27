@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "34784728544",
+    "firebase_url": "https://schoolix-4ece3.firebaseio.com",
+    "project_id": "schoolix-4ece3",
+    "storage_bucket": "schoolix-4ece3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34784728544:android:d317de1e6035b315",
+        "android_client_info": {
+          "package_name": "com.moonface.schoolix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34784728544-3jl4cs346r5c715aucc36mbut7duj9dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moonface.schoolix",
+            "certificate_hash": "65fdebc23e466aafda83bf6e06d679cebd8758d9"
+          }
+        },
+        {
+          "client_id": "34784728544-hbas566cbajqo51olmqlt683lc37esh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARcJO10mGF4gKR51TRoMrqGwCFAXpHV8Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34784728544-hbas566cbajqo51olmqlt683lc37esh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

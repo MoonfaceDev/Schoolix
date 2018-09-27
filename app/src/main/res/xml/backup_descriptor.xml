@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="sharedpref"
+        path="generalData"
+        requiredFlags="deviceToDeviceTransfer" />
+    <include domain="sharedpref"
+        path="timetableData"
+        requiredFlags="deviceToDeviceTransfer" />
+    <include domain="sharedpref"
+        path="subjectData"
+        requiredFlags="deviceToDeviceTransfer" />
+    <include domain="sharedpref"
+        path="taskData"
+        requiredFlags="deviceToDeviceTransfer" />
+    <include domain="sharedpref"
+        path="gradeData"
+        requiredFlags="deviceToDeviceTransfer" />
+    <include domain="sharedpref"
+        path="semesterData"
+        requiredFlags="deviceToDeviceTransfer" />
+    <include domain="sharedpref"
+        path="periodData"
+        requiredFlags="deviceToDeviceTransfer" />
+    <include domain="sharedpref"
+        path="breakData"
+        requiredFlags="deviceToDeviceTransfer" />
+</full-backup-content>

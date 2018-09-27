@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name" translatable="false">Schoolix</string>
+    <string name="title_tasks">Tasks</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_timetable">Timetable</string>
+    <string name="title_activity_view_class">Class</string>
+    <string name="title_activity_view_subject">Subject</string>
+    <string name="title_activity_view_task">Task</string>
+    <string name="title_activity_view_grade">Grade</string>
+    <string name="title_activity_setup">Setup</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_about">About</string>
+    <string name="whats_new">- First release of Schoolix</string>
+    <string name="author_label">Author</string>
+    <string name="colon_char" translatable="false">:</string>
+    <string name="space_char" translatable="false">\ \ </string>
+    <string name="author" translatable="false">Moonface</string>
+    <string name="version_label">Version</string>
+    <string name="mailto" translatable="false">mailto:</string>
+    <string name="email" translatable="false">elaicorem1@gmail.com</string>
+    <string name="app_rater_preferences" translatable="false">app_rater</string>
+    <string name="dont_show_again_key" translatable="false">don\'t_show_again</string>
+    <string name="launch_count_key" translatable="false">launch_count</string>
+    <string name="date_first_launch_key" translatable="false">date_first_launch</string>
+    <string name="rate_label">Rate</string>
+    <string name="rate_message">If you like Schoolix, please take a moment to rate us. Thank you for your support!</string>
+    <string name="rate_now_label">Rate now</string>
+    <string name="play_store_link" translatable="false">http://play.google.com/store/apps/details?id=com.moonface.schoolix</string>
+    <string name="no_thanks_label">No thanks</string>
+    <string name="backup_saved_toast">Saved backup to</string>
+    <string name="slash_char" translatable="false">/</string>
+    <string name="data_restored_toast">Data restored successfully</string>
+    <string name="general_data_preferences" translatable="false">generalData</string>
+    <string name="daily_notification_key" translatable="false">dailyNotification</string>
+    <string name="notification_hour_key" translatable="false">notificationHour</string>
+    <string name="notification_minute_key" translatable="false">notificationMinute</string>
+    <string name="backup_file_name" translatable="false">backup</string>
+    <string name="timetable_notification_key" translatable="false">timetableNotification</string>
+    <string name="timetable_data_preferences" translatable="false">timetableData</string>
+    <string name="period_data_preferences" translatable="false">periodData</string>
+    <string name="cannot_find_backup_toast">Cannot find backup file</string>
+    <string name="data_erased_toast">Data erased successfully</string>
+    <string name="subject_data_preferences" translatable="false">subjectData</string>
+    <string name="task_data_preferences" translatable="false">taskData</string>
+    <string name="grade_data_preferences" translatable="false">gradeData</string>
+    <string name="semester_data_preferences" translatable="false">semesterData</string>
+    <string name="break_data_preferences" translatable="false">breakData</string>
+    <string name="first_day_key" translatable="false">firstDay</string>
+    <string name="grading_key" translatable="false">grading</string>
+    <string name="separator_char" translatable="false">|</string>
+    <string name="break_label">break</string>
+    <string name="ending_hour_after_starting_hour_toast">Ending hour must be after the starting hour</string>
+    <string name="period_clashing_toast">Period is clashing with another period</string>
+    <string name="starting_hour_clashing_toast">Starting hour is clashing with another period</string>
+    <string name="ending_hour_clashing_toast">Ending hour is clashing with another period</string>
+    <string name="hour_label">Hour</string>
+    <string name="edit_class_label">Edit class</string>
+    <string name="pick_subject_toast">Please pick a subject</string>
+    <string name="pick_day_toast">Please pick a day</string>
+    <string name="pick_hour_toast">Please pick an hour</string>
+    <string name="create_new_subject_label">Create new subject</string>
+    <string name="hour_picker_tag" translatable="false">hour picker</string>
+    <string name="name_key" translatable="false">name</string>
+    <string name="opening_bracket" translatable="false">(</string>
+    <string name="closing_bracket" translatable="false">)</string>
+    <string-array name="suffixes">
+        <item>th</item>
+        <item>st</item>
+        <item>nd</item>
+        <item>rd</item>
+        <item>th</item>
+        <item>th</item>
+        <item>th</item>
+        <item>th</item>
+        <item>th</item>
+        <item>th</item>
+    </string-array>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string name="hyphen_char" translatable="false">-</string>
+    <string name="d" translatable="false">d</string>
+    <string name="h" translatable="false">h</string>
+    <string name="good_evening_label">Good evening</string>
+    <string name="good_morning_label">Good morning</string>
+    <string name="good_afternoon_label">Good afternoon</string>
+    <string name="underscore_char" translatable="false">_</string>
+    <string-array name="first_day_categories">
+        <item>Local default</item>
+        <item>Monday</item>
+        <item>Sunday</item>
+    </string-array>
+    <string-array name="grading_categories">
+        <item>0 to 100</item>
+        <item>0 to 10</item>
+        <item>F to A+</item>
+    </string-array>
+    <string-array name="grade_types">
+        <item>Exam</item>
+        <item>Quiz</item>
+        <item>Project</item>
+        <item>Written work</item>
+    </string-array>
+    <string-array name="task_types">
+        <item>Exam</item>
+        <item>Quiz</item>
+        <item>Project</item>
+        <item>Written work</item>
+        <item>Homework</item>
+    </string-array>
+    <string-array name="grade_sort_categories">
+        <item>Date</item>
+        <item>Subject</item>
+        <item>Type</item>
+        <item>Weight</item>
+        <item>Grade</item>
+    </string-array>
+    <string-array name="task_sort_categories">
+        <item>Date</item>
+        <item>Subject</item>
+        <item>Type</item>
+    </string-array>
+    <string name="percents_char" translatable="false">%</string>
+    <string name="title_empty_toast">Title cannot be empty</string>
+    <string name="set_date_toast">Please set a date</string>
+    <string name="set_weight_toast">Please set a weight</string>
+    <string name="grade_empty_toast">Grade cannot be empty</string>
+    <string name="pick_type_toast">Please pick a type</string>
+    <string name="title_contain_number_and_letters_toast">Title must contain only letters and numbers</string>
+    <string name="weight_contain_digits">Weight must contain only digits</string>
+    <string name="grade_contain_numbers">Grade must contain only numbers</string>
+    <string name="grade_between_0_100">Grade must be between 0 to 100</string>
+    <string name="grade_between_0_10">Grade must be between 0 to 10</string>
+    <string name="grade_between_F_A">Grade must be between F to A+</string>
+    <string name="edit_grade_label">Edit grade</string>
+    <string name="class_hour_label">Class hour</string>
+    <string name="ok_label">OK</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="data_imported_toast">Data imported successfully</string>
+    <string name="import_data_from_label">Import data from</string>
+    <string name="import_data_label">Import data</string>
+    <string name="question_mark_char" translatable="false">\?</string>
+    <string name="text_plain_type" translatable="false">text/plain</string>
+    <string name="share_using_label">Share using</string>
+    <string name="overview_tag" translatable="false">OVERVIEW</string>
+    <string name="subjects_tag" translatable="false">SUBJECTS</string>
+    <string name="grades_tag" translatable="false">GRADES</string>
+    <string name="daily_notification_tag" translatable="false">DAILY_NOTIFICATION</string>
+    <string name="custom_uri_prefix" translatable="false">custom://</string>
+    <string name="class_key" translatable="false">class</string>
+    <string name="period_label">period</string>
+    <string name="label_key" translatable="false">label</string>
+    <string name="fragment_key" translatable="false">fragment</string>
+    <string name="semester_label">semester</string>
+    <string name="edit_semester_label">Edit semester</string>
+    <string name="pick_starting_date_toast">Please pick a starting date</string>
+    <string name="pick_ending_date_toast">Please pick a ending date</string>
+    <string name="ending_date_after_starting_date_toast">Ending date must be after the starting date</string>
+    <string name="semester_clashing_toast">This semester clashes with another semester</string>
+    <string name="starting_date_clashing">Starting date is clashing with another semester</string>
+    <string name="ending_date_clashing">Ending date is clashing with another semester</string>
+    <string name="general_section_label">General</string>
+    <string name="semesters_section_label">Semesters</string>
+    <string name="periods_section_label">Periods</string>
+    <string name="notifications_section_label">Notifications</string>
+    <string name="backup_and_restore_section_label"><![CDATA[Backup & restore]]></string>
+    <string name="rate_us_label">Rate us</string>
+    <string name="contact_us_label">Contact us</string>
+    <string name="about_label">About</string>
+    <string name="have_at_least_one_semester_toast">You must have at least 1 semester</string>
+    <string name="have_at_least_two_periods_toast">You must have at least 2 periods</string>
+    <string name="edit_subject_label">Edit subject</string>
+    <string name="teacher_name_empty_toast">Teacher\'s name cannot be empty</string>
+    <string name="room_name_empty_toast">Room\'s name cannot be empty</string>
+    <string name="title_contain_letters_toast">Title must contain only letters</string>
+    <string name="teacher_name_contain_letters">Teacher\'s name must contain only letters</string>
+    <string name="room_name_contain_letters_and_digits_toast">Room\'s name must contain only letters or digits</string>
+    <string name="next_lesson_label">Next lesson</string>
+    <string name="no_label">No</string>
+    <string name="lessons_found_label">lessons found</string>
+    <string name="quotation_mark_char" translatable="false">\"</string>
+    <string name="delete_confirmation_label">Are you sure you want to delete</string>
+    <string name="yes_label">Yes</string>
+    <string name="weighted_average_label">Weighted average</string>
+    <string name="comma_char" translatable="false">,</string>
+    <string name="edit_task_label">Edit task</string>
+    <string name="no_tasks_for_tomorrow_label">No tasks for tomorrow</string>
+    <string name="enjoy_your_day_label">Enjoy your day</string>
+    <string name="tasks_for_tomorrow_label">tasks for tomorrow</string>
+    <string name="upcoming_task_alert_label">Upcoming task alert</string>
+    <string name="tasks_channel_id" translatable="false">tasks</string>
+    <string name="tasks_channel_name">Task reminders</string>
+    <string name="starting_at_label">starting at</string>
+    <string name="hurry_up_to_room_label">Hurry up to room</string>
+    <string name="upcoming_class_alert_label">Upcoming class alert</string>
+    <string name="timetable_channel_id" translatable="false">timetable</string>
+    <string name="timetable_channel_name">Class reminders</string>
+    <string name="what_s_new_label">What\'s new?</string>
+    <string name="open_source_licences_label">Open source licences</string>
+    <string name="add_break_label">Add break</string>
+    <string name="create_new_class_label">Create new class</string>
+    <string name="subject_label">Subject</string>
+    <string name="add_grade_label">Add grade</string>
+    <string name="title_hint">Title</string>
+    <string name="date_label">Date</string>
+    <string name="weight_hint">Weight (%)</string>
+    <string name="grade_hint">Grade</string>
+    <string name="type_label">Type</string>
+    <string name="add_period_label">Add period</string>
+    <string name="add_semester_label">Add semester</string>
+    <string name="teacher_hint">Teacher</string>
+    <string name="room_hint">Room</string>
+    <string name="add_task_label">Add task</string>
+    <string name="backup_data_label">Backup data</string>
+    <string name="backup_data_to_file_label">Backup data to file</string>
+    <string name="restore_data_label">Restore data</string>
+    <string name="restore_data_from_file_label">Restore data from file</string>
+    <string name="erase_data_label">Erase data</string>
+    <string name="erase_schoolix_data_label">Erase Schoolix data</string>
+    <string name="your_upcoming_tasks_label">Your upcoming tasks</string>
+    <string name="your_schedule_today_label">Your schedule today</string>
+    <string name="first_day_of_the_week_label">First day of the week</string>
+    <string name="grading_system_label">Grading system</string>
+    <string name="sort_by_label">Sort by:</string>
+    <string name="daily_tasks_notifications_label">Daily tasks notifications</string>
+    <string name="timetable_notifications_label">Timetable notifications</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="import_data_from_file_label">Import data from file?</string>
+    <string name="welcome_to_schoolix_label">Welcome to Schoolix</string>
+    <string name="schoolix_welcome_description_label">Schoolix will help you manage your classes, tasks and grades. Schoolix will be like your digital school diary, that will guide you through this school year.</string>
+    <string name="edit_label">Edit</string>
+    <string name="delete_label">Delete</string>
+    <string name="view_subject_label">View subject</string>
+    <string name="tasks_label">Tasks</string>
+    <string name="grades_label">Grades</string>
+    <string name="done_label">Done</string>
+    <string name="later_label">Later</string>
+    <string name="overview_label">Overview</string>
+    <string name="subjects_label">Subjects</string>
+    <string name="settings_label">Settings</string>
+    <string name="share_label">Share</string>
+    <string name="class_outside_timetable_toast">This class is outside the timetable</string>
+    <string name="class_clashing_toast">This class is clashing with another class</string>
+    <string name="title_unique_toast">Title must be unique</string>
+    <string name="schoolix_data">Schoolix data</string>
+    <string name="hebrew_code" translatable="false">iw</string>
+    <string name="edit_break_label">Edit break</string>
+    <string name="edit_period_label">Edit period</string>
+
+
+</resources>
